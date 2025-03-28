@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtespecie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Espécie: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtraca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raça: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtsexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtvacinacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vanicação: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtcastracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Castração: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtcor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cor: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtpeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peso: "
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtcomplicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complicação: "
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar" />
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir" />
+
+</LinearLayout>

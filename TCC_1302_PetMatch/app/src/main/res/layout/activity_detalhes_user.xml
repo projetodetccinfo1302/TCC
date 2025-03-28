@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtSobrenome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="espécie: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtCpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPF: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CEP: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone: "
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar" />
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir" />
+</LinearLayout>
