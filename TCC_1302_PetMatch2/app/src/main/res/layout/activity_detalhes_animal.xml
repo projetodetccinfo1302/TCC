@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper3"
+    tools:context=".Model.DetalhesAnimal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/txtEspecie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Espécie: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/txtRaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raça: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Porte: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo: "
+        android:id="@+id/sexo"
+        android:orientation="horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtvacina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vanicação: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/txtcastracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Castração: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/txtcor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cor: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/txtidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/txtpeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peso: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtcomplicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complicação: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
