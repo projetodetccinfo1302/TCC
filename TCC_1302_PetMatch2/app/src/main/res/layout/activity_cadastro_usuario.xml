@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/wallpaper2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Model.CadastroUsuario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+<!-- titulo-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Usuário"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal">
+            <!-- Exibe o campo Nome-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome:   "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"></TextView>
+            <!-- Campo para esccrever seu Nome-->
+            <EditText
+                android:id="@+id/txtNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Digite seu nome:"
+                android:inputType="text"
+                android:textColorHint="#5f5f5f"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <!-- Exibe o campo Sobrenome-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sobrenome:   "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Digite seu sobrenome:"
+                android:textColorHint="#5f5f5f"
+                android:inputType="text"
+                android:id="@+id/txtSNome">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <!-- Exibe o campo Senha-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senha:   "
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Crie sua senha:"
+                android:textColorHint="#5f5f5f"
+                android:inputType="textPassword"
+                android:id="@+id/txtsenha">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <!-- Exibe o campo EMail-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:   "
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Digite seu E-mail de contato:"
+                android:textColorHint="#5f5f5f"
+                android:inputType="textEmailAddress"
+                android:id="@+id/txtemail">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <!-- Exibe o campo Telefone-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone:   "
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Digite seu telefone de contato:"
+                android:textColorHint="#5f5f5f"
+                android:inputType="number"
+                android:id="@+id/txtfone">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <!-- Exibe o campo CPF -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPF:   "
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Digite seu CPF:"
+                android:textColorHint="#5f5f5f"
+                android:inputType="number"
+                android:id="@+id/txtcpf">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <!-- Exibe o campo CEP-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CEP:   "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp">
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Digite seu CEP:"
+                android:textColorHint= "#5f5f5f"
+                android:inputType="number"
+                android:id="@+id/txtcep">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <!-- Exibe o campo idade-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Idade:   "
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Digite sua idade:"
+                android:textColorHint="#5f5f5f"
+                android:inputType="number"
+                android:id="@+id/txtidade">
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+        <!-- Exibe uma frase para definir se voce é adotante ou doador-->
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Você é:"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+<!-- Caixa para escolher se é adotante ou doador-->
+        <CheckBox
+            android:id="@+id/checkAdotante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adotante"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+        />
+
+        <CheckBox
+            android:id="@+id/checkDoador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doador"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+<!-- Button para enviar informacao-->
+    <Button
+            android:layout_width="wrap_content"
+            android:background="#B08EFF"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonenviar"
+            android:text="Enviar"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp">
+        </Button>
+
+</LinearLayout>

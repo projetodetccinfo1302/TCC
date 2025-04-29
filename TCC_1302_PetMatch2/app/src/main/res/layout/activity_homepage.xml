@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@drawable/wallpaper2">
+
+    <!-- Foto de perfil (opcional) -->
+    <ImageView
+        android:id="@+id/fotoperfil"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile_icon"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Nome do usuário -->
+    <TextView
+        android:id="@+id/txtNomeUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- E-mail -->
+    <TextView
+        android:id="@+id/txtEmailUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Outros dados -->
+    <TextView
+        android:id="@+id/txtTelefoneUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefone"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtTipoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Usuário"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnEditarPerfil"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Editar Perfil"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnCadastroanimal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Animal"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnveranimais"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Animais Cadastrados"
+        android:textSize="20dp"/>
+
+</LinearLayout>

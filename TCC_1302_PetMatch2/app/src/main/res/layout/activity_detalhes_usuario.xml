@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/wallpaper2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Model.DetalhesUsuario">
+
+    <!-- TextView para visualizar informacao registrada-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informações do Usuário: "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+    </LinearLayout>
+
+    <!-- TextView para visualizar informacao registrada-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome: "
+            android:id="@+id/txtnome"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobrenome: "
+            android:id="@+id/txtsnome"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-Mail: "
+            android:id="@+id/txtemail"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senha: "
+            android:id="@+id/txtsenha"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefone: "
+            android:id="@+id/txttelefone"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CPF: "
+            android:id="@+id/txtcpf"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEP: "
+            android:id="@+id/txtcep"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idade: "
+            android:id="@+id/txtidade"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo: "
+            android:id="@+id/txttipo"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
